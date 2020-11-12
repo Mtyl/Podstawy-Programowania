@@ -1,0 +1,24 @@
+  /* Local Variables:  */
+  /* compile-command: "gcc zad1.c -o -ggdb zad1" */
+  /* End:              */
+#define N1 23
+#define N2 27
+#include <stdio.h>
+int t1[N1];
+int t2[N2];
+
+void reverse(){
+  short int ctr = 0;
+  int buffer = 0;
+  while(((N2-1)-i)>i){
+    buffer = t1[i];
+    t1[i] = t1[(N2-1)-i];
+    t1[(N2-1)-i] = buffer;
+  }
+  return 0;
+}
+
+int main(){
+  reverse()
+  return 0;
+}
